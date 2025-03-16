@@ -693,6 +693,9 @@ address {
 .desktop-none {
   display: none;
 }
+.mobile-menu{
+  display: none;
+}
 @media (max-width: 1158px) {
   .team-list {
     flex-wrap: wrap;
@@ -799,6 +802,7 @@ address {
   }
 
   .mobile-menu {
+    display: block;
     background-color: var(--white);
     position: fixed;
     inset: 0;
